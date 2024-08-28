@@ -1,0 +1,8 @@
+#leitura da temperatura em graus Celsius (C)
+temp_celsius = int(input('Digite a temperatura em graus Celsius'))
+
+#calcular a temperatura em Fahrenheit
+temp_fahrenheit = (temp_celsius * 9 / 5) + 32
+
+#Exibição da temperatura em F
+print(f'A temperatura em Fahrenheit é de {temp_fahrenheit}')
